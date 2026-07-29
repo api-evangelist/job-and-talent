@@ -1,8 +1,27 @@
 aid: job-and-talent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/job-and-talent.png
 name: Job&Talent
-description: 'Job&Talent is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Job&Talent is an AI-powered workforce marketplace and workforce-management platform that
+  connects companies with temporary and hourly workers across essential industries such as logistics,
+  warehousing, delivery, manufacturing, retail, and construction. Founded in Spain and operating across
+  roughly ten markets, the company placed around 300,000 people in work in 2024 and reported approximately
+  EUR 1.9 billion in annual revenue. Its products include the flagship worker job-matching app, Job&Talent
+  Business for employers to hire and manage staff (recruitment, scheduling, attendance, performance, and
+  retention), and a growing suite of AI agents (including Clara for recruiting) that automate staffing
+  operations. Job&Talent is backed by investors including the SoftBank Vision Fund. No public developer
+  API or developer portal is published at this time; this profile captures the company identity plus its
+  public security and trust surface.'
 url: https://raw.githubusercontent.com/api-evangelist/job-and-talent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Workforce
+- Staffing
+- Recruitment
+- Human Resources
+- Marketplace
+- Gig Economy
+- Logistics
 apis: []
+common:
+- type: Website
+  url: https://www.jobandtalent.com/
+- type: Blog
+  url: https://www.jobandtalent.com/companies/blog
+- type: Support
+  url: https://jobandtalent-us.kustomer.help/
+- type: TermsOfService
+  url: https://www.jobandtalent.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.jobandtalent.com/legal/privacy-notice
+- type: SecurityTxt
+  url: well-known/job-and-talent-security.txt
+- type: WellKnown
+  url: well-known/job-and-talent-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/job-and-talent-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.jobandtalent.com/legal/vulnerability-disclosure-policy
+- type: TrustCenter
+  url: security/job-and-talent-trust-center.yml
+- type: Compliance
+  url: https://www.jobandtalent.com/security
+- type: DomainSecurity
+  url: security/job-and-talent-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

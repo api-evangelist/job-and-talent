@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://www.jobandtalent.com/security
+certifications:
+  - ISO/IEC 27001:2022
+compliance:
+  - GDPR
+notes: >-
+  Job&Talent operates an Information Security Management System (ISMS) compliant with ISO/IEC
+  27001:2022 and states commitment to GDPR / applicable data protection regulations. No SOC 2,
+  PCI DSS, HIPAA, or FedRAMP claims were found on the public security page.
+evidence:
+  - source: https://www.jobandtalent.com/security
+    keywords: [iso/iec 27001:2022, isms, gdpr]
